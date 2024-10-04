@@ -7,6 +7,6 @@
 </head>
 <body>
     <h2>Hello ${message}</h2>
-    <a href="/hello?name=Huhu">Valider</a>
+<%--    <a href="/hello?name=Huhu">Valider</a>--%>
 </body>
 </html>

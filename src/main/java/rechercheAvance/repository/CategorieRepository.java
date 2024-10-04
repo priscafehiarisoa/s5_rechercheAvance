@@ -1,4 +1,7 @@
 package rechercheAvance.repository;
 
-public interface CategorieRepository extends org.springframework.data.jpa.repository.JpaRepository<rechercheAvance.modele.Categorie, java.lang.Integer> {
+import org.springframework.data.jpa.repository.JpaRepository;
+import rechercheAvance.modele.Categorie;
+
+public interface CategorieRepository extends JpaRepository<Categorie, Integer> {
 }
